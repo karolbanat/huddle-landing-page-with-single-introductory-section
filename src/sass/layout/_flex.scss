@@ -1,0 +1,9 @@
+.flex {
+	display: flex;
+	gap: var(--spacing-600);
+	align-items: center;
+
+	@media (max-width: 75em) {
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,25 @@
+.btn {
+	padding: 1em;
+	width: 20rem;
+
+	font-size: var(--fz-small);
+
+	color: var(--button);
+	background-color: var(--bg-button);
+	box-shadow: var(--shadow);
+
+	border: none;
+	border-radius: 50em;
+
+	cursor: pointer;
+	transition: color 0.4s ease, background-color 0.4s ease;
+
+	@media (min-width: 50em) {
+		font-size: var(--fz-regular-exclusive);
+	}
+
+	&:hover {
+		--button: var(--clr-white);
+		--bg-button: var(--clr-primary-400);
+	}
+}

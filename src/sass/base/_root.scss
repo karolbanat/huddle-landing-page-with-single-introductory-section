@@ -1,0 +1,35 @@
+:root {
+	// colors
+	--clr-primary-700: hsl(257, 40%, 49%);
+	--clr-primary-400: hsl(300, 69%, 71%);
+
+	--clr-white: hsl(0, 0%, 100%);
+
+	// font families
+	--ff-heading: 'Poppins', sans-serif;
+	--ff-body: 'Open Sans', sans-serif;
+
+	// font sizes
+	--fz-small: 1.2rem;
+	--fz-regular: 1.6rem;
+	--fz-regular-exclusive: 1.8rem;
+	--fz-medium: 2.4rem;
+	--fz-large: 4rem;
+
+	// spacings
+	--spacing-200: 1.6rem;
+	--spacing-400: 2.8rem;
+	--spacing-500: 4rem;
+	--spacing-600: 6.5rem;
+	--spacing-700: 8rem;
+	--spacing-900: 10.5rem;
+
+	--introduction: var(--clr-white);
+	--bg-introduction: var(--clr-primary-700);
+
+	--button: var(--clr-primary-700);
+	--bg-button: var(--clr-white);
+	--shadow: 0.1rem 0.3rem 0.5rem hsla(0 0% 0% / 0.27);
+
+	--media-link: var(--clr-white);
+}
